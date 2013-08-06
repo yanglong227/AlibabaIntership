@@ -132,7 +132,7 @@ string getIp(const char * address)             //求得 IP地址的字符串
 }
 
 
-int getMaskBit(const string IP)       //获取掩码的位数
+int getMaskBit(const string IP)  //get mask bits from IP address
 {
     int i=0;
     int strLen=IP.size();
